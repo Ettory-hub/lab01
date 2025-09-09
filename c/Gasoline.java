@@ -9,3 +9,4 @@ public interface Gasoline {
 
     double getMpg();
 }
+          
