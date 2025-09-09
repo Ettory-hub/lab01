@@ -36,7 +36,7 @@ public class HybridVehicleTest {
 
     @Test
     public void testComputeMpge_HandoutExample() {
-        // From the handout: 300 miles using 70 kWh => 144.43 MPGe
+        //  300 miles using 70 kWh => 144.43 MPGe
         // (miles/kWh) * 33.7
         double mpge = hv.mpge(300.0, 70.0);
         assertEquals(144.43, mpge, 0.01);
